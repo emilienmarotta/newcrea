@@ -35,7 +35,7 @@ export default function ResponsiveMenu({ open, setOpen }) {
         >
           <div
             ref={menuRef}
-            className="bg-ncDarkBlue py-6 text-sm font-semibold text-violet-200 mins:rounded-bl-3xl xs:text-base md:hidden"
+            className="bg-paletteColor1 text-paletteColor3 py-6 text-sm font-semibold mins:rounded-bl-3xl xs:text-base md:hidden"
           >
             <ul className="flex flex-col items-center justify-center gap-6">
               <li>

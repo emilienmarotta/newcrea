@@ -11,8 +11,11 @@ export default {
         poppins: ["Poppins", "sans-serif"],
       },
       colors: {
-        ncDarkBlue: "#091021",
-        ncPurple: "#6338e4",
+        paletteColor1: "#091021",
+        paletteColor2: "#6338e4",
+        paletteColor3: "#DDD6FE",
+        smTextWhtColor: "#475569",
+        smTextDrkColor: "#94a3b8",
       },
     },
   },

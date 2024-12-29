@@ -15,7 +15,7 @@ export default function Navbar() {
           alt="Logo Newcrea"
         />
       </div>
-      <ul className="hidden items-center gap-[4vw] text-violet-200 md:flex">
+      <ul className="text-paletteColor3 hidden items-center gap-[4vw] md:flex">
         <li>
           <a className="underline-animation" href="#">
             Accueil
@@ -35,7 +35,7 @@ export default function Navbar() {
       <Button text="Nous contacter" style_={1} />
       <MdMenu
         id="hbg-menu"
-        className="cursor-pointer select-none text-4xl text-violet-200 md:hidden md:text-6xl"
+        className="text-paletteColor3 cursor-pointer select-none text-4xl md:hidden md:text-6xl"
         onClick={() => setOpen((prev) => !prev)}
       />
       <ResponsiveMenu open={open} setOpen={setOpen} />
