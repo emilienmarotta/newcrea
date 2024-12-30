@@ -16,7 +16,7 @@
   }
 
   h2 {
-    @apply relative inline-block text-center text-lg font-semibold xs:text-xl sm:text-2xl;
+    @apply relative inline-block text-center text-lg font-semibold underline decoration-paletteColor2 decoration-2 xs:text-xl xs:no-underline sm:text-2xl;
   }
 
   h2::before,
