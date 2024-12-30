@@ -8,7 +8,11 @@
   }
 
   .underline-animation::after {
-    @apply bg-paletteColor2 absolute bottom-[-4px] left-0 h-[2px] w-full origin-bottom-right scale-x-0 transition-transform duration-300 content-[''] hover:origin-bottom-left hover:scale-x-100;
+    @apply absolute bottom-[-4px] left-0 h-[2px] w-full origin-bottom-right scale-x-0 bg-paletteColor2 transition-transform duration-300 content-[''] hover:origin-bottom-left hover:scale-x-100;
+  }
+
+  .footer-link {
+    @apply duration-300 hover:text-paletteColor2;
   }
 
   h2 {
@@ -17,7 +21,7 @@
 
   h2::before,
   h2::after {
-    @apply bg-paletteColor2 absolute top-[50%] hidden h-[2px] w-[20px] translate-y-[-50%] content-[''] xs:block xs:w-[30px];
+    @apply absolute top-[50%] hidden h-[2px] w-[20px] translate-y-[-50%] bg-paletteColor2 content-[''] xs:block xs:w-[30px];
   }
 
   h2::before {

@@ -13,7 +13,7 @@ export default {
       colors: {
         paletteColor1: "#091021",
         paletteColor2: "#6338e4",
-        paletteColor3: "#DDD6FE",
+        paletteColor3: "#FFFFFF", // #DDD6FE
         smTextWhtColor: "#475569",
         smTextDrkColor: "#94a3b8",
       },
@@ -24,7 +24,7 @@ export default {
       addComponents({
         "::selection": {
           backgroundColor: "#6338e4",
-          color: "#ddd6fe",
+          color: "#ffffff",
         },
       });
     },
