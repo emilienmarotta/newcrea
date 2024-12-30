@@ -86,7 +86,7 @@ export default function Processus() {
   }, [touchStart]);
 
   return (
-    <div className="bg-paletteColor1 text-paletteColor3 py-7 text-center">
+    <div className="bg-paletteColor1 py-7 text-center text-paletteColor3">
       <h2 id="processus" className="w-[90%] xs:w-auto">
         Un processus simple et efficace
       </h2>
@@ -117,13 +117,13 @@ export default function Processus() {
       </div>
       <div className="mt-4 flex justify-center gap-3">
         <button
-          className="border-paletteColor3 text-paletteColor3 bg-paletteColor1 hover:border-paletteColor2 hover:text-paletteColor2 flex size-12 items-center justify-center rounded-full border-2 text-2xl transition-all duration-300 ease-in-out"
+          className="flex size-12 items-center justify-center rounded-full border-2 border-paletteColor3 bg-paletteColor1 text-2xl text-paletteColor3 transition-all duration-300 ease-in-out hover:border-paletteColor2 hover:text-paletteColor2"
           onClick={prevStep}
         >
           &#60;
         </button>
         <button
-          className="text-paletteColor3 border-paletteColor3 bg-paletteColor1 hover:border-paletteColor2 hover:text-paletteColor2 flex size-12 items-center justify-center rounded-full border-2 text-2xl transition-all duration-300 ease-in-out"
+          className="flex size-12 items-center justify-center rounded-full border-2 border-paletteColor3 bg-paletteColor1 text-2xl text-paletteColor3 transition-all duration-300 ease-in-out hover:border-paletteColor2 hover:text-paletteColor2"
           onClick={nextStep}
         >
           &#62;

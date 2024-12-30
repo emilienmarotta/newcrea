@@ -42,7 +42,10 @@ export default function Footer() {
                 </a>
               </div>
             </div>
-            <a className="footer-link text-smTextWhtColor" href="#">
+            <a
+              className="footer-link text-smTextWhtColor"
+              href="mailto:newcreatemp@gmail.com"
+            >
               Contactez nous
             </a>
           </div>
@@ -52,10 +55,10 @@ export default function Footer() {
               <a className="footer-link" href="#">
                 Accueil
               </a>
-              <a className="footer-link" href="#">
+              <a className="footer-link" href="#offers">
                 Nos offres
               </a>
-              <a className="footer-link" href="#">
+              <a className="footer-link" href="#processus">
                 Notre processus de création
               </a>
               <a className="footer-link" href="#">
