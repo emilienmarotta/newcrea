@@ -52,7 +52,10 @@ export default function Footer() {
           <div className="flex flex-col gap-2 md:items-start">
             <p className="mb-2 font-semibold">Menu</p>
             <div className="flex flex-col gap-2 text-smTextWhtColor md:items-start">
-              <a className="footer-link" href="#">
+              <a
+                className="footer-link"
+                href="https://www.instagram.com/newcreafr/"
+              >
                 Accueil
               </a>
               <a className="footer-link" href="#offers">
