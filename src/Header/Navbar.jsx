@@ -10,7 +10,7 @@ export default function Navbar() {
       <div>
         <img
           className="w-[40px] py-4 md:w-[60px]"
-          src="assets/logo-w-dark-mode.svg"
+          src="assets/newcrea-logo.svg"
           alt="Logo Newcrea"
         />
       </div>
