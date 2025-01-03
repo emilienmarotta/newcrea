@@ -4,7 +4,7 @@ export default function Presentation() {
   return (
     <>
       <div className="mx-auto mt-16 flex w-[90%] flex-col items-center text-center">
-        <h1>Votre agence Web à Nancy</h1>
+        <h1>Votre Agence Web à Nancy</h1>
         <p className="my-7">
           Développez une présence digitale qui vous ressemble, grâce à nos
           solutions modernes et sur mesure.

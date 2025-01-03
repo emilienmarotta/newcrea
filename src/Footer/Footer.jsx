@@ -8,7 +8,7 @@ export default function Footer() {
               NewCrea
             </p>
             <p className="mb-4 text-base font-semibold xs:text-lg">
-              Votre agence Web à Nancy
+              Votre Agence Web à Nancy
             </p>
             <div>
               <p className="font-semibold">Suivez nous sur :</p>
