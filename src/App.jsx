@@ -3,6 +3,7 @@ import Presentation from "./Body/Presentation";
 import Offers from "./Body/Offers";
 import Processus from "./Body/Processus";
 import Footer from "./Footer/Footer";
+import UpArrow from "./UpArrow";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Presentation />
       <Offers />
       <Processus />
+      {/* <UpArrow /> */}
       <Footer />
     </>
   );
